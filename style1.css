@@ -1,0 +1,257 @@
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-font-size: cover;
+            background-size: cover;
+            background: url('fond.jpg') repeat;
+            background-repeat: repeat;
+        }
+        
+        div {
+            font-family: sans-serif;
+            text-transform: lowercase;
+            font-variant: small-caps;
+        }
+        
+        .showcase-top {
+            position: relative;
+            z-index: 2;
+            height: 90px;
+        }
+        
+        th {
+            text-transform: uppercase;
+        }
+        
+        tr {
+            text-transform: capitalize;
+            width: 1.5em;
+        }
+        
+        td {
+            text-align: center;
+        }
+        
+        ul.a {
+            list-style-type: square;
+        }
+        
+        ol {
+            list-style-type: upper-latin;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 1.5em;
+        }
+        
+        th {
+            width: 1.5em;
+        }
+        
+        #monmenu {
+            width: 100%;
+            height: 45px;
+            margin-left: auto;
+            margin-top: 0;
+            background: linear-gradient(#a764e6, #ec88c3);
+            border-radius: 0px 0px 4px 4px;
+        }
+        
+        #menu {
+            font-family: "Times New Roman", Times, serif;
+            text-transform: uppercase;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 0;
+            display: table;
+            padding: 0;
+        }
+        
+        #menu li {
+            margin-top: 0;
+            font-size: 15px;
+            display: table-cell;
+            width: 150px;
+            transition: 1s;
+        }
+        
+        #menu li img {
+            width: 170px;
+            /*position: absolute;*/
+            top: 18%;
+            left: -12%;
+            transform: translate(-50%, -50%);
+            position: relative;
+            margin: 15px auto 0;
+        }
+        
+        #menu ul {
+            margin-top: 0;
+            font-size: 15px;
+            display: table-cell;
+            width: 150px;
+            transition: 1s;
+        }
+        
+        #Netflix {
+            width: 100%;
+            float: left;
+            position: absolute;
+        }
+        
+        #menu li:hover {
+            width: 190px;
+            transition: 1s;
+        }
+        
+        #menu a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            line-height: 40px;
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+            transition: text-shadow, color 1s;
+            position: relative;
+        }
+        
+        #menu a:hover {
+            color: yellow;
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.2);
+            transition: text-shadow, color 1s;
+            border-bottom: 4px solid rgba(255, 255, 255, 0.8)
+        }
+        
+        #menu a:before {
+            content: '';
+            position: absolute;
+            border-left: 3px solid transparent;
+            border-right: 3px solid transparent;
+            border-top: 5px solid rgba(0, 0, 0, 0.2);
+            left: 50%;
+            bottom: 5px;
+        }
+        
+        a {
+            color: black;
+        }
+        
+        a:hover {
+            color: yellow;
+        }
+        
+        .php {
+            font-size: 2em;
+        }
+        
+        .form input[type=submit] {
+            border: none;
+            outline: none;
+            height: 30px;
+            font-size: 17px;
+            background-color: red;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            position: auto;
+            padding: 0.4rem 1rem;
+            left: 10%;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        }
+        
+        .forme input[type=submit] {
+            border: none;
+            outline: none;
+            height: 30px;
+            font-size: 17px;
+            background-color: red;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            position: auto;
+            padding: 0.4rem 1rem;
+            left: 10%;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+            top: 50%;
+        }
+        
+        .showcase-tope {
+            position: relative;
+            z-index: 2;
+            height: 90px;
+        }
+        
+        .showcase-tope input[type=submit] {
+            top: 10%;
+            right: 0;
+            transform: translate(-50%, -50%);
+            border: solid white;
+            outline: none;
+            height: 30px;
+            font-size: 12px center;
+            background-color: red;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            padding: 0.4rem 1.9rem;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+            display: inline-block;
+            display: block;
+            position: relative;
+            margin-left: 90%;
+            margin-right: auto;
+            margin-top: auto;
+            text-transform: uppercase;
+        }
+        
+        .bt input[type=submit] {
+            position: auto;
+            top: -50%;
+            right: 0;
+            transform: translate(-50%, -50%);
+            border: none;
+            outline: none;
+            height: 30px;
+            font-size: 17px;
+            background-color: red;
+            color: #fff;
+            border-radius: 2px;
+            cursor: pointer;
+            padding: 0.4rem 1rem;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        }
+        
+        .forme {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            padding: 100px;
+        }
+        
+        .forme table {
+            border-collapse: collapse;
+            table-layout: auto;
+            width: 100%;
+        }
+        
+        .forme tr {
+            text-transform: capitalize;
+            width: 100%;
+            border: 1px solid #000000;
+            text-align: center;
+        }
+        
+        .forme th {
+            text-transform: uppercase;
+            width: 200%;
+        }
+        
+        .forme td {
+            width: 100%;
+            border: 1px solid #000000;
+            text-align: center;
+        }
